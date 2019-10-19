@@ -6,7 +6,7 @@ PATH_TO_WOFF2_DECOMPRESS=~/code/woff2/woff2_decompress
 if [ $# -eq 0 ]; then
 	cat <<EOL
 Usage:
-  Save base64 font from website into file (Chromium > Network Panel > Font > Right Click Font > Copy Response)"
+  Save base64 font from website into file (Chromium > Network Panel > Font > Right Click Font > Copy Response)
 		
   $0 file
 EOL
